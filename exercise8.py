@@ -9,3 +9,6 @@ reversed_num_str = num_str[::-1]
 
 # Check if the original number is equal to its reversed version
 if num_str == reversed_num_str:
+    print(num, "is a palindrome number.")
+else:
+    print(num, "is not a palindrome number.")
